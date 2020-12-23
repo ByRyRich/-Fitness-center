@@ -1,0 +1,217 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Anton", sans-serif;
+  color: black;
+  font-size: 16px;
+  max-width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-left: 200px;
+}
+
+h2 {
+  margin-left: 240px;
+}
+
+h5 {
+  margin-left: 350px;
+  padding-top: 20px;
+}
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  /*позиционирование по центру*/
+  margin: 0 auto;
+}
+
+header a {
+  color: #FFF;
+}
+
+.logo {
+  margin-right: 450px;
+}
+
+.menu {
+  display: flex;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+}
+.menu li {
+  margin-right: 150px;
+  padding-top: 15px;
+}
+
+.nav {
+  display: flex;
+}
+
+#rectangle {
+  width: auto;
+  height: 60px;
+  background: #0F41E2;
+}
+
+section {
+  padding-top: 130px;
+}
+
+.line {
+  border-left: 2px solid #0F41E2;
+  width: 580px;
+  height: 450px;
+  margin-left: 70px;
+}
+
+.zagolo {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.zagolo a {
+  font-size: 30px;
+  margin-left: 60px;
+  letter-spacing: 0.3em;
+}
+
+.zagolo1 a {
+  font-size: 30px;
+  margin-left: 80px;
+  letter-spacing: 0.3em;
+}
+
+.zagolo2 b {
+  font-size: 30px;
+  margin-left: 170px;
+}
+
+.zagolo3 b {
+  font-size: 30px;
+  margin-left: 240px;
+}
+
+.description a {
+  font-size: 20px;
+  margin-left: 275px;
+}
+
+.komanda {
+  width: 670px;
+  height: 450px;
+  border: 5px;
+  background: #fff;
+  margin-left: 950px;
+  margin-top: -450px;
+}
+
+.trener {
+  max-width: 100%;
+  border: 5px;
+  background: #fff;
+}
+
+.trener_1 {
+  width: 570px;
+  height: 450px;
+  border: 5px;
+  background: #fff;
+  margin-left: 70px;
+}
+
+.r {
+  width: 1150px;
+  height: 330px;
+  opacity: 0.98;
+  background: #090909;
+  margin-left: 450px;
+  margin-top: -395px;
+}
+
+.r_1 {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.r_1 p {
+  color: #fff;
+}
+
+.r_2 {
+  letter-spacing: 0.15em;
+  font-size: 15px;
+}
+.r_2 p {
+  color: #fff;
+}
+
+.d24 {
+  background: #fff;
+  height: 200px;
+  width: 40px;
+  position: relative;
+  left: 650px;
+  margin-top: -155px;
+  opacity: 0.05;
+}
+
+.d24:after {
+  content: "";
+  height: 40px;
+  width: 200px;
+  background: #fff;
+  position: absolute;
+  left: -80px;
+  top: 80px;
+}
+
+.d24_1 {
+  background: #fff;
+  height: 200px;
+  width: 40px;
+  position: relative;
+  left: 1450px;
+  margin-top: -440px;
+  opacity: 0.05;
+}
+
+.d24_1:after {
+  content: "";
+  height: 40px;
+  width: 200px;
+  background: #fff;
+  position: absolute;
+  left: -80px;
+  top: 80px;
+}
+
+.trener_2 {
+  width: 570px;
+  height: 450px;
+  border: 5px;
+  background: #fff;
+  margin-left: 70px;
+}
+
+.line_1 {
+  border-right: 2px solid #0F41E2;
+  width: 580px;
+  height: 450px;
+  margin-left: 58 0px;
+}
